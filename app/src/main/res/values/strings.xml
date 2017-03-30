@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">zalo</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="chat">Tin nhắn</string>
+    <string name="friend">Bạn bè</string>
+    <string name="timeline">Dòng thời gian</string>
+    <string name="setting">Cài đặt</string>
+    <string name="corporation">© 2017 chuongnh</string>
+    <string name="author">Nguyễn Hoàng Chương</string>
+</resources>

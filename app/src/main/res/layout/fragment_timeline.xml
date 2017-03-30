@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chuongnh.hcm.zalo.View.Main.Fragment.FragmentTimeline">
+    <FrameLayout
+        android:id="@+id/fragment_timeline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorSilver"
+        android:padding="0dp"
+        android:layout_above="@+id/linearlayout_fragment_bottom">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_timeline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearlayout_fragment_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/border_layout">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hôm nay bạn thế nào?"
+            android:background="@drawable/border_layout"
+            android:drawableLeft="@drawable/ic_image_black_24dp"
+            android:textSize="@dimen/text_size_sm"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/colorText"
+            android:paddingLeft="5dp" />
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/border_layout"
+            android:drawableRight="@drawable/ic_notifications_none_black_24dp"
+            android:paddingRight="15dp"/>
+    </RelativeLayout>
+</RelativeLayout>
